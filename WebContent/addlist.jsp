@@ -43,12 +43,7 @@ List<GuestBookVo> guestList = guestBookDao.getGuestList();
 	%>
 	<br>
 	<table border="1">
-		<colgroup>
-			<col style="width: 30px;">
-			<col style="width: 90px;">
-			<col style="width: 300px;">
-			<col style="width: 60px;">
-		</colgroup>
+
 		<tr>
 			<td><%=guestList.get(i).getNo()%></td>
 			<td><%=guestList.get(i).getName()%></td>
